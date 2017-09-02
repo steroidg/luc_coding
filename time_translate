@@ -1,0 +1,15 @@
+#! /bin/bash
+
+# Translate 'quarter past' to 15 minutes
+# Translate 'quarter to' to 45 minutes
+
+echo "Ask me 'quarter past' or 'quarter to':"
+read QUESTION
+
+if [ "$QUESTION" = 'quarter past' ]; then
+  echo '15'
+elif [ "$QUESTION" = 'quarter to' ]; then
+  echo '45'
+else
+  echo "I don't know how to answer you."
+fi
