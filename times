@@ -1,0 +1,8 @@
+#! /bin/bash
+
+
+
+while $i -lt 9; do
+  RESULT=`expr $1 \* $i`;
+  echo "${1}x${i}=${RESULT}";
+done
