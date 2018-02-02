@@ -23,7 +23,6 @@ print('''
 
 # 2010-
 
-
 # I have 9 apples, I got another 2 apples, now I have 11 apples
 # 9 + 2 = 11
 # I was born in 2009, I am 2 years old, what year is it? Answer: now it's 2011.
@@ -38,8 +37,15 @@ print('''
 # I was born in 2009, I am 30 years old, what year is it? Answer: it's now 2039
 # 2009 + 30 = 2039
 
+# Now it's 2018, I was born in 2009, what's my age?
+# 2018 - 2009 = my_age
+# my_age = 2018 - 2009
+this_year = 2018
 birth_year = 2009
-print(2018 - birth_year)
+my_age = this_year - birth_year
 
-# I was born in 2009, I am 35 years old, what year is it? Let computer give me the answer.
-print(2009 + 35)
+print('I am ' + str(my_age) + ' years old')
+
+#2018 - 2009 = 9
+## I was born in 2009, I am 35 years old, what year is it? Let computer give me the answer.
+#print(2009 + 35)
