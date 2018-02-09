@@ -29,8 +29,10 @@ print('''
 # 2009 + 2 = 2011
 # Now it's 2011, I was born in 2009, how old am I? Answer: I am 2 years old.
 # 2011 - 2009 = 2
-# Now it's 2011, I am 2 years old, when was I born? Answer: I was born in 2009
-# 2011 - 2 = 2009
+# Now it's 2018, I am 10 years old, when was I born? Answer: I was born in 2009
+# 2018 - 10 = 2008
+# Now it's 2018, I am 10 years old, when was I born? Answer: let computer calculate the year I was born
+# 2018 - 10 = ???
 
 # I was born in 2009, I am 20 years old, what year is it? Answer: it's now 2029
 # 2009 + 20 = 2029
@@ -45,6 +47,12 @@ birth_year = 2009
 my_age = this_year - birth_year
 
 print('I am ' + str(my_age) + ' years old')
+
+# Print out the user's age
+user_age = input('How old are you?')
+print('you are ' + user_age + ' years old')
+
+# Now that we know how old the user is, calculate the user's birth year and print it out.
 
 #2018 - 2009 = 9
 ## I was born in 2009, I am 35 years old, what year is it? Let computer give me the answer.
