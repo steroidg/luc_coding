@@ -12,37 +12,44 @@ print('''
 /__.-'|_|--|_|
 ''')
 
+# I will be my_age years old this year, when was I born? Write the forumlar
+# this_year - my_age =
+# 2018 - 9 = 2009
 # 2018 - 2009 = 9
 # 2018 - 9 = 2009
 # 2009 + 9 = 2018
 # 9 + 2009 = 2018
-# 2009 + 10 = 2019
 
-# 2009 + 1 = 2010
-# 2010 -2009 = 1
+# 1 + 1 = 2
+# 2 = 2
 
-# 2010-
+#10 20 30
+#
+#10 + 20 = 30
+#30 = 10 + 20
+#10 = 30 - 20
+#20 = 30 - 10
 
-# I have 9 apples, I got another 2 apples, now I have 11 apples
-# 9 + 2 = 11
-# I was born in 2009, I am 2 years old, what year is it? Answer: now it's 2011.
-# 2009 + 2 = 2011
-# Now it's 2011, I was born in 2009, how old am I? Answer: I am 2 years old.
-# 2011 - 2009 = 2
-# Now it's 2018, I am 10 years old, when was I born? Answer: I was born in 2009
-# 2018 - 10 = 2008
-# Now it's 2018, I am 10 years old, when was I born? Answer: let computer calculate the year I was born
-# 2018 - 10 = ???
-
-# I was born in 2009, I am 20 years old, what year is it? Answer: it's now 2029
-# 2009 + 20 = 2029
-# I was born in 2009, I am 30 years old, what year is it? Answer: it's now 2039
-# 2009 + 30 = 2039
+#age     this_year    birth_year
+#9       2018         2009
+#
+#this_year = age + birth_year
+#2018 = 9 + 2009
+#age = this_year - birth_year
+#9 = 2018 - 2009
+#birth_year = this_year - age
+#2009 = 2018 - 9
+#
+#
+#user_age    this_year    user_birth_year
+#this_year = user_age + user_birth_year
+#user_age = this_year - uaer_birth_year
+#user_birth_year = this_year - user_age
 
 # Now it's 2018, I was born in 2009, what's my age?
 # 2018 - 2009 = my_age
 # my_age = 2018 - 2009
-this_year = 2018
+this_year = 2019
 birth_year = 2009
 my_age = this_year - birth_year
 
@@ -51,9 +58,7 @@ print('I am ' + str(my_age) + ' years old')
 # Print out the user's age
 user_age = input('How old are you?')
 print('you are ' + user_age + ' years old')
-
-# Now that we know how old the user is, calculate the user's birth year and print it out.
-
-#2018 - 2009 = 9
-## I was born in 2009, I am 35 years old, what year is it? Let computer give me the answer.
-#print(2009 + 35)
+# Now that we know how old the user is this year, calculate the user's birth year and print it out.
+# this_year - user_age =
+user_birth_year = this_year - int(user_age)
+print('your birth year is ' + str(user_birth_year))
